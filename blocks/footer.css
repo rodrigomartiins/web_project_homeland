@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: 92px 0 24px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 100%;
+    font-size: 14px;
+    margin: 64px 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    width: 100%;
+    font-size: 14px;
+    margin: 48px 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

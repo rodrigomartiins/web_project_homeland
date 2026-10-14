@@ -1,0 +1,147 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 830px;
+  height: 482px;
+  margin-top: 92px;
+  margin-left: 148px;
+  margin-right: 302px;
+  margin-bottom: 132px;
+}
+
+.intro__title {
+  max-width: 830px;
+  height: 116px;
+  margin-bottom: 40px;
+  font-family: "Inter Black", sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  text-align: justify;
+}
+
+.intro__text-quote {
+  max-width: 738px;
+  height: 68px;
+  margin-bottom: 10px;
+  margin-right: 92px;
+  font-family: "Inter Regular", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  align-items: flex-start;
+}
+
+.intro__text-author {
+  max-width: 732px;
+  height: 34px;
+  margin-bottom: 32px;
+  margin-right: 98px;
+  font-family: "Inter Regular", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: right;
+}
+
+.intro__text-description {
+  max-width: 722px;
+  height: 182px;
+  margin-right: 108px;
+  font-family: "Inter Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    margin: 92px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin: 0 auto;
+  }
+  .intro__title {
+    max-width: 707px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 45px;
+    line-height: 1.5;
+    text-align: start;
+    margin-top: 0px;
+  }
+
+  .intro__text-quote {
+    max-width: 720px;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: start;
+  }
+
+  .intro__text-author {
+    max-width: 720px;
+    font-size: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 26px;
+    text-align: end;
+  }
+
+  .intro__text-description {
+    max-width: 720px;
+    font-size: 16px;
+    text-align: start;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    max-width: 544px;
+    min-height: 878px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    min-height: 140px;
+    text-align: start;
+    line-height: 1.5;
+  }
+
+  .intro__text-quote {
+    max-width: 288px;
+    min-height: 180px;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 40px;
+    text-align: start;
+  }
+
+  .intro__text-author {
+    max-width: 288px;
+    min-height: 40px;
+    font-size: 24px;
+    text-align: end;
+  }
+
+  .intro__text-description {
+    max-width: 288px;
+    min-height: 442px;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 32px;
+    text-align: start;
+  }
+}
