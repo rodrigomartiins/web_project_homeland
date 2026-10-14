@@ -7,12 +7,12 @@ O projeto apresenta uma estrutura organizada e moderna, com foco em boas prátic
 
 ## 🧩 Tecnologias utilizadas
 
-- **HTML5** → estrutura semântica e acessível  
-- **CSS3** → estilização responsiva e uso de media queries  
-- **@font-face** → integração de fontes locais personalizadas  
-- **Git & GitHub** → controle de versão e hospedagem do código  
-- **Normalize.css** → padronização de estilos entre navegadores  
-- **EditorConfig** → consistência de formatação entre diferentes editores  
+- **HTML5** → estrutura semântica e acessível
+- **CSS3** → estilização responsiva e uso de media queries
+- **@font-face** → integração de fontes locais personalizadas
+- **Git & GitHub** → controle de versão e hospedagem do código
+- **Normalize.css** → padronização de estilos entre navegadores
+- **EditorConfig** → consistência de formatação entre diferentes editores
 - **Prettier** → formatação automática do código
 
 ---
@@ -20,6 +20,7 @@ O projeto apresenta uma estrutura organizada e moderna, com foco em boas prátic
 ## 📱 Responsividade
 
 O layout foi projetado para se ajustar automaticamente a:
+
 - Monitores grandes (desktop)
 - Tablets
 - Smartphones
@@ -28,5 +29,8 @@ As **media queries** garantem que o conteúdo mantenha legibilidade e proporçã
 
 ---
 
-## 🧠 Estrutura do projeto
+## 🚀 Como visualizar
 
+1. Link:
+
+https://rodrigomartiins.github.io/web_project_homeland/index.html
