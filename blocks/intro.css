@@ -43,6 +43,120 @@
   font-size: 16px;
 }
 
+.main {
+  padding-top: 118px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1184px;
+  gap: 16px;
+}
+.main__photo {
+  width: 100%;
+  height: 100%;
+}
+
+.main__places {
+  width: 100%;
+  max-width: 984px;
+  padding-top: 92px;
+  margin: 0 auto;
+}
+.main__places-photo:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+.main__place {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 80px;
+  column-gap: 40px;
+}
+.main__place-left {
+  display: flex;
+  flex-direction: column;
+}
+.main__place:last-of-type {
+  padding-bottom: 0;
+}
+.main__place-title {
+  margin: 0;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.08;
+  max-width: 460px;
+  font-family: "Inter Black";
+}
+.main__places-photo {
+  margin-top: 48px;
+  max-width: 460px;
+  width: 100%;
+  box-shadow: 10px 10px 25px black;
+}
+
+.main__city {
+  margin: 0;
+  align-self: end;
+  font-family: "Inter Regular";
+}
+.main__city-link {
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  padding-bottom: 8px;
+  color: #aaaaaa;
+}
+.main__city-artist {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+}
+.main__city-paragraph {
+  margin: 0;
+  max-width: 484px;
+  line-height: 1.63;
+  font-size: 18px;
+  font-family: "Inter Regular";
+  font-weight: 400;
+}
+.main__city-paragraph:first-of-type {
+  padding-top: 48px;
+  padding-bottom: 25px;
+}
+
+.main__frame {
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  width: 100%;
+  box-shadow: 5px 5px 10px black;
+  max-width: 356px;
+  border-radius: 4px;
+  color: white;
+  height: 48px;
+  text-decoration: none;
+  margin-top: 48px;
+}
+.main__frame:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+  color: white;
+  cursor: pointer;
+}
+.main__frame-text {
+  margin: 0;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 13px 20px;
+  font-family: "Inter Regular";
+}
+
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 720px;
@@ -74,6 +188,46 @@
     font-size: 16px;
     text-align: start;
     margin-top: 16px;
+  }
+
+  .main__photos {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 720px;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .main__places {
+    max-width: 720px;
+    padding-top: 88px;
+  }
+  .main__place {
+    column-gap: 28px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main__place-title {
+    font-size: 42px;
+    line-height: 1.09;
+    max-width: 340px;
+  }
+
+  .main__city-paragraph:nth-child(3) {
+    padding-top: 25px;
+  }
+
+  .main__city-paragraph {
+    max-width: 352px;
+    font-size: 16px;
+  }
+
+  .main__frame {
+    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    width: 356px;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 4px;
+    height: 48px;
+    margin-top: 48px;
   }
 }
 
@@ -114,5 +268,61 @@
     font-size: 16px;
     margin-top: 32px;
     text-align: start;
+  }
+
+  .main__photos {
+    grid-template-columns: 1fr;
+    padding-top: 38px;
+    gap: 12px;
+    max-width: 288px;
+  }
+
+  .main__place {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 68px;
+  }
+  .main__place-left {
+    max-width: 288px;
+    display: contents;
+    width: 100%;
+  }
+
+  .main__places {
+    max-width: 288px;
+    padding-top: 62px;
+    width: 100%;
+  }
+  .main__place-title {
+    font-size: 32px;
+    line-height: 1.09;
+    padding-bottom: 30px;
+  }
+  .main__places-photo {
+    width: calc(100% + 32px);
+    max-width: none;
+    margin-left: -16px;
+    margin-top: 30px;
+  }
+
+  .main__city {
+    align-self: flex-start;
+  }
+
+  .main__city-paragraph:first-of-type {
+    padding-top: 30px;
+  }
+
+  .main__frame {
+    width: 100%;
+    text-decoration: none;
+    margin-top: 30px;
+    order: 4;
+  }
+  .main__frame-text {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 21px;
   }
 }
